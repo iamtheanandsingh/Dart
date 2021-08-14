@@ -1,5 +1,7 @@
+import 'dart:io';
+
 void main(List<String> args) {
-  int i = 5;
+  int i = int.parse(stdin.readLineSync());
   if (i % 2 == 0) {
     print("Even");
   } else
